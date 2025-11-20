@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styles/style.css" rel="stylesheet" type="text/css">
+    <title>Contact Us </title>
+
+</head>
+<body>
+    
+    <header class="navbar">
+        <img class="logo" src="Images/GraceImages-removebg-preview (1).png">
+        <div class="navbar-bridgerton">
+         <ul>
+          
+            <li> <a href="Home.html">Home</a></li>
+            <li>  <a href="Bridgerton.html">Bridgerton</a></li>
+            <li> <a href="Strangerthings.html">StrangersThings</a></li>
+            <li> <a href="Bright.html">Bright</a></li>
+            <li><a class="active" href="Contact.html">Contact</a></li>
+            
+         </ul>
+        </div>
+        <button type="button" class="signin-btn">Sign In</button>
+
+        </header>
+        <br>
+
+        <main>
+            <form action="https://your-backend.com/send" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"  minlength="20" maxlength="25" required><br><br>
+    
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required><br><br>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+    
+                    <label for="date">Date of Visit:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+    
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>
+    
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+    
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                        <option value="zimbabwe">ZIM</option>
+                        <option value="south africa">SA</option>
+                        <option value="malawi">MAL</option>
+                        <option value="asia">Asia</option>
+                    </select><br><br>
+    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </fieldset>
+            </form>
+        </main>
+
+    </body>
+</html>

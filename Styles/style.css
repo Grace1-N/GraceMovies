@@ -1,0 +1,588 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 8, 8, 0.89);
+    font-family: system-ui;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+}
+
+.navbar a 
+{
+  
+        text-decoration: none;
+        color: white;
+    
+}
+
+
+.navbar li
+{
+   list-style-type: none;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 7px 17px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    white-space: nowrap; 
+}
+
+.signin-btn
+{
+    margin-right: 80px;
+}
+
+.view-btn {
+    margin-top: 20px;
+}
+
+.btn:hover {
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0px 0px 0px 80px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.container1{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://www.xtrafondos.com/wallpapers/serie-bridgerton-6853.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://wallpapercave.com/wp/wp1839587.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container4{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://3.bp.blogspot.com/-MRpseFIMdr0/Wk-gmDHYB_I/AAAAAAAARY8/PuKRGiHizkUMmwXUA06DhYTRWYE2YHx-wCLcBGAs/s1600/Bright%2B%25282017%2529.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    color: white;
+    word-spacing: 5px;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+}
+
+h3 {
+    color: white;
+    font-weight: normal;
+    text-align: right;
+    padding: 23px;
+    padding-bottom: 200px;
+}
+
+.searchbar 
+{
+    text-align: center;
+    background-color: none;
+    display: flex;
+    margin: 60px 100px;
+}
+
+.try {
+    font-size: 17px;
+    padding: 14px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    background-color: red;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-bottom: 40px;
+    flex: 1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.try:hover
+{
+    color: black;
+    font-style: italic;
+    display: inline-flex;
+    background-color: red;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.section1 {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section a
+{
+    text-decoration: none;
+}
+
+
+
+.flexbox
+{
+  
+        flex: 1;
+        padding: 5px 32px 12px 32px;
+        margin: 15px;
+        text-align: justify;
+        border-radius: 7px;
+        transition: 0.4s all;
+        
+ 
+}
+
+.flexbox img
+{
+    width: 300px;
+    height: 533px;
+    border-radius: 10px;
+    transition: 0.4s all;
+    
+}
+
+.flexbox img:hover
+{
+  
+    border-radius: 10px;
+    transform: scale(1.1);
+
+}
+
+h2
+{
+        text-align: center;
+        color: white;
+        font-size: -webkit-xxx-large;
+        
+}
+
+/*  This is next section is for the 1st page - Bridgerton */
+.container1-bridgerton{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://images6.fanpop.com/image/photos/43600000/-Bridgerton-Season-1-poster-anthony-bridgerton-43618672-2460-1080.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-bridgerton ul 
+{
+    text-align: center;
+    word-spacing: 45px;
+    padding-right: 50px;
+}
+.navbar-bridgerton li
+{
+  cursor: pointer;
+  display:inline-block
+}
+
+.navbar-bridgerton a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.navbar-bridgerton a:hover {
+    list-style-type: none;
+    text-decoration: none;
+    color: red;
+    font-size: larger;
+}
+
+.btn-bridgerton
+ {
+    background-color: red;
+    color: white;
+    padding: 7px 17px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+.active
+{
+   
+        transition: 0.3s all;
+        color: red !important;
+        text-decoration: none;
+   
+}
+
+.flexbox-bridgerton
+{
+    border-radius: 12px;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+}
+
+.flexbox-bridgerton img {
+    border-radius: 120px;
+    width: 474px;
+    height: 316px;
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.text {
+    color: white;
+    padding-bottom: 20px;
+    font-family: system-ui;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 50px;
+    flex: 1;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+ p
+  {
+    color: white;
+  }
+
+  /*  This is next section is for the 2nd page - Bridgerton */
+
+  .container1-stranger{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://image-cdn.hypb.st/https://hypebeast.com/image/2023/04/stranger-things-animated-series-in-the-works-tw.jpg?w=1080&cbr=1&q=90&fit=max);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-stranger ul 
+{
+    text-align: center;
+    word-spacing: 45px;
+    padding-right: 50px;
+}
+.navbar-stranger li
+{
+  cursor: pointer;
+  display:inline-block
+}
+
+.navbar-stranger a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.navbar-stranger a:hover {
+    list-style-type: none;
+    text-decoration: none;
+    color: red;
+    font-size: larger;
+}
+
+.btn-stranger
+ {
+    background-color: red;
+    color: white;
+    padding: 7px 17px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+
+
+.flexbox-stranger
+{
+    border-radius: 12px;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+}
+
+.flexbox-stranger img
+ { 
+   
+    border-radius: 120px;
+    width: 60%;
+    padding: 40px; 
+ }
+
+.email-txt
+{
+    
+   font-size: 17px;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: none;
+     margin-bottom: 40px;
+    flex: 1;
+
+}
+
+.footer-section
+{
+    background-color: #2d2d2d;
+    padding:30px 0px;
+    font-family: system-ui;
+    text-align:center;
+} 
+
+.footer-section ul
+{
+    
+        font-family: system-ui;
+        list-style-type: none;
+        color: white;
+        justify-content: space-evenly;
+        display: flex;
+        cursor: pointer;
+    
+}
+
+.footer-section li:hover
+{
+    color: red;
+
+}
+
+/* This section is for the bright style-elements */
+
+.area1
+{
+    background-color: black;
+    display: flex;
+}
+
+.flex1
+{
+    flex:1;
+
+}
+
+.flex1 img {
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: none;
+    border-radius: 120px;
+}
+
+input[type=text], input[type=email], input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type=submit], input[type=reset] {
+    width: 48%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+fieldset {
+    border: none;
+}
+
+legend
+{
+    
+    color: WHITE;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+label
+{
+      
+    color: WHITE;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+footer a
+{
+   
+    text-decoration: none;
+    color: white;
+   
+}
+
+footer a:hover
+{
+   
+    text-decoration: none;
+    color: red;
+   
+}
+
+@media (max-width:800px)
+{
+  .navbar
+  {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .signin-btn 
+  {
+    margin: 20px auto;
+  }
+
+  .navbar-bridgerton li
+   {
+    display: block;
+   }
+
+   .flexbox-bridgerton
+    {
+    flex-direction: column;
+    }
+
+    .text
+    {
+        margin-top: 1px;
+    }
+
+   
+}
+
+
+@media (max-width:600px)
+{
+  .navbar-bridgerton li
+   {
+    display: block;
+   }
+
+   .searchbar
+   {
+    margin: 60px 50px;
+    flex-direction: column;
+   }
+
+   .email-txt
+   {
+    border-radius: 15px;
+    margin-bottom: 6px;
+   }
+
+   .try
+   {
+    border-radius: 15px;
+   }
+   
+   .flexbox-bridgerton img 
+   {
+    border-radius: 30px;
+    width: 350px;
+    height: 242px;
+   }
+    
+   .footer-section ul 
+   {
+    padding: 0;
+    flex-direction: column;
+   }
+
+
+   .area1 
+   {
+   
+    flex-direction: column;
+    padding-left: 78px;
+   }
+}
+
+@media print {
+    body {
+      font-size: 12pt;
+      color: black;
+      background: white;
+    }
+
+    .no-print {
+        display: none;
+      }
+
+}
